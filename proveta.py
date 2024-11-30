@@ -57,3 +57,35 @@ def standardize_postal_code(postal_code):
 
 postal_code = "  123 45 "
 print(standardize_postal_code(postal_code))  # Output: "12345"
+
+import re
+import phonenumbers
+
+def estandarizar_telefono(telefono):
+    # Elimina todos los caracteres no numéricos
+    telefono = re.sub(r'\D', '', telefono)
+    
+    # Si el teléfono tiene 10 dígitos, agregar el código de país por defecto
+    if len(telefono) == 10:
+        telefono = '+1' + telefono
+    return telefono
+
+def validar_telefono(telefono):
+    try:
+        numero = phonenumbers.parse(telefono, None)
+        if phonenumbers.is_valid_number(numero):
+            return phonenumbers.format_number(numero, phonenumbers.PhoneNumberFormat.E164)
+        else:
+            return None
+    except phonenumbers.phonenumberutil.NumberParseException:
+        return None
+
+def procesar_telefono(telefono):
+    telefono_estandarizado = estandarizar_telefono(telefono)
+    return validar_telefono(telefono_estandarizado)
+
+# Ejemplo de uso
+telefono = "+1 (123) 456-7890"
+telefono_normalizado = procesar_telefono(telefono)
+print(telefono_normalizado)  # Salida: +11234567890
+
