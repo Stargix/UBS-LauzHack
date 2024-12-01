@@ -1,3 +1,4 @@
+
 import numpy as np
 import pandas as pd
 from sklearn.metrics.pairwise import cosine_similarity
@@ -16,19 +17,23 @@ combined_data = pd.merge(account_booking_df, external_parties_df, on='transactio
 
 # Null count of each variables to know which ones are more relevant to analyze
 combined_data.isnull().sum()
-irrelevant_cols_external = ['party_info_unstructured', 'parsed_address_unit', 'parsed_address_state', 'parsed_address_country']
+## External parties data
+
+irrelevant_cols_external = ['party_info_unstructured', 'parsed_address_unit', 'parsed_address_state', 'parsed_address_country', 'parsed_address_street_number', 'party_iban', 'party_phone']
 external_parties_df.drop(columns=irrelevant_cols_external, inplace=True, errors='ignore')
 
 ## Accounts booking data
 duplicate_ids = account_booking_df[account_booking_df.duplicated(subset='transaction_reference_id', keep=False)]
 account_booking_df = account_booking_df[~account_booking_df['transaction_reference_id'].isin(duplicate_ids['transaction_reference_id'])]
 
-irrelevant_cols_booking = ['debit_credit_indicator']
+irrelevant_cols_booking = ['debit_credit_indicator', 'transaction_currency']
 account_booking_df.drop(columns=irrelevant_cols_booking, inplace=True, errors='ignore')
 
 # Merge the two dataframes
 
 merged_df = pd.merge(external_parties_df, account_booking_df, on='transaction_reference_id', how='inner')
+
+merged_df.to_csv('merged_data_cleaned.csv', index=False)
 
 # merged_df.to_csv('merged_data_cleaned.csv', index=False)
 
@@ -83,104 +88,88 @@ merged_df['parsed_address_street_name'] = merged_df['parsed_address_street_name'
 print(merged_df['parsed_address_street_name'].head())
 
 merged_df.to_csv('merged_data_cleaned.csv', index=False)
-# Función para calcular similitudes con TF-IDF
-# Reemplazar valores faltantes de direcciones
-merged_df['parsed_address_street_name'].fillna(merged_df['parsed_address_city'].fillna('MISSING'), inplace=True)
-def calculate_similarity(df, column1, column2):
+
+
+
+from sklearn.metrics.pairwise import cosine_similarity
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.cluster import DBSCAN
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+def calculate_similarity(df, column):
     vectorizer = TfidfVectorizer()
-    
-    # Rellenamos los valores faltantes con un valor temporal
-    df[column1].fillna('MISSING', inplace=True)
-    df[column2].fillna('MISSING', inplace=True)
-    
-    # Combinamos las dos columnas en una nueva
-    combined_column = df[column1] + " " + df[column2]
-    
-    # Creamos la matriz TF-IDF
-    tfidf_matrix = vectorizer.fit_transform(combined_column)
-    
-    # Calculamos la matriz de similitud del coseno
+    tfidf_matrix = vectorizer.fit_transform(df[column].fillna(''))
     cosine_sim = cosine_similarity(tfidf_matrix)
-    
-    # Opcional: Penaliza similitud para valores originalmente faltantes
-    missing_mask = df[column1].isna().values | df[column2].isna().values
-    cosine_sim[missing_mask, :] = 0
-    cosine_sim[:, missing_mask] = 0
-    
     return cosine_sim
 
 
-# Función de blocking
-def create_block_key(value, prefix_length=5):
-    if pd.isna(value):  # Maneja valores faltantes
+
+def create_block_key(value, prefix_length=3):
+    if pd.isna(value):
         return 'MISSING'
     return value[:prefix_length].lower()
 
-# Aplica el bloqueo en la columna deseada
-merged_df['block'] = merged_df['parsed_name'].apply(create_block_key, prefix_length=3)
-
 def create_combined_block(row):
-    # Combina prefijos de varias columnas
-    name_key = create_block_key(row['parsed_name'], prefix_length=3)
-    address_key = create_block_key(row['parsed_address_street_name'], prefix_length=3)
+    name_key = create_block_key(row['parsed_name'])
+    address_key = create_block_key(row['parsed_address_street_name'])
     return f"{name_key}_{address_key}"
 
 merged_df['block'] = merged_df.apply(create_combined_block, axis=1)
 blocks = merged_df.groupby('block')
 
-
-# Procesar cada bloque
-
-
-merged_df['parsed_address_street_name'].fillna(
-merged_df['parsed_address_city'].fillna('MISSING'), inplace=True
-)
+print(blocks.size().sort_values(ascending=False).head(10))
 
 results = []
 
-# En el bucle de procesamiento de bloques, en lugar de calcular solo la similitud de `parsed_name`, ahora usaremos las dos columnas
 for block_name, block_data in blocks:
-    print(f"Processing block: {block_name}")
-    
     if len(block_data) < 2:
         block_data['external_id'] = range(len(results), len(results) + len(block_data))
         results.append(block_data)
         continue
 
-    # Similaridad para 'parsed_name' y 'parsed_address_street_name'
-    name_and_address_similarity = calculate_similarity(block_data, 'parsed_name', 'parsed_address_street_name')
-    
-    # Asegúrate de que los valores de la matriz de similitud estén en el rango [0, 1]
-    name_and_address_similarity = np.clip(name_and_address_similarity, 0, 1)
-    
-    # Convertimos la matriz de similitud en distancias
-    distance_matrix = 1 - name_and_address_similarity
-    
-    # Aplicamos DBSCAN
+    name_similarity = calculate_similarity(block_data, 'parsed_name')
+    distance_matrix = 1 - name_similarity
+
     db = DBSCAN(eps=0.3, min_samples=2, metric='precomputed')
     clusters = db.fit_predict(distance_matrix)
-    
-    # Asignamos clusters como 'external_id'
-    block_data['external_id'] = clusters + len(results)  # Evita conflictos entre bloques
+
+    block_data['external_id'] = clusters + len(results)
     results.append(block_data)
 
-
-# Combinar los resultados de todos los bloques
 final_df = pd.concat(results, ignore_index=True)
+
+from sklearn.decomposition import PCA
+
+similarity_matrix = calculate_similarity(final_df, 'parsed_name')
+similarity_matrix_clean = np.nan_to_num(similarity_matrix)
+
+pca = PCA(n_components=2)
+reduced_data = pca.fit_transform(similarity_matrix_clean)
+
+final_df['pca_x'] = reduced_data[:, 0]
+final_df['pca_y'] = reduced_data[:, 1]
+
+plt.figure(figsize=(10, 8))
+sns.scatterplot(
+    data=final_df,
+    x='pca_x',
+    y='pca_y',
+    hue='external_id',
+    palette='viridis',
+    legend=None
+)
+plt.title('Visualización de Clusters')
+plt.show()
+
 cluster_sizes = final_df['external_id'].value_counts()
-valid_clusters = cluster_sizes[cluster_sizes > 1].index
 
-# Filtramos las filas que pertenecen a esos clusters
-filtered_df = final_df[final_df['external_id'].isin(valid_clusters)]
-filtered_df = filtered_df[['external_id', 'transaction_reference_id']]
-
-filtered_df.to_excel('filtered_tests.xlsx', index=False)
-
-cluster_sizes2 = filtered_df['external_id'].value_counts()
-
+final_df.to_excel('tests_runs_data.xlsx', index=False)
 
 plt.figure(figsize=(12, 6))
-sns.barplot(x=cluster_sizes2.index, y=cluster_sizes2.values)
+sns.barplot(x=cluster_sizes.index, y=cluster_sizes.values)
 plt.title('Distribución de Clusters')
 plt.xlabel('Cluster ID')
 plt.ylabel('Tamaño del Cluster')
