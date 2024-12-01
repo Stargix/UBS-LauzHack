@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="ATM HMLTN" />
+    <node id="1103" />
+    <node id="ATM" />
+    <node id="ATM LLLLKK KRPRXN" />
+    <node id="ATMMMRKS" />
+    <edge source="ATM HMLTN" target="1103">
+      <data key="d0">487.39</data>
+    </edge>
+    <edge source="1103" target="ATM">
+      <data key="d0">8723.9</data>
+    </edge>
+    <edge source="1103" target="ATM LLLLKK KRPRXN">
+      <data key="d0">6369.51</data>
+    </edge>
+    <edge source="1103" target="ATMMMRKS">
+      <data key="d0">7251.6</data>
+    </edge>
+  </graph>
+</graphml>

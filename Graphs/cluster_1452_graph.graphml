@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="FSTRRTRK KRPP" />
+    <node id="1452" />
+    <node id="FSTRRRKFRT LK" />
+    <node id="FSTRRKRFRT KMPN" />
+    <node id="FSTRRKRFRT LMTT" />
+    <edge source="FSTRRTRK KRPP" target="1452">
+      <data key="d0">2543.15</data>
+    </edge>
+    <edge source="1452" target="FSTRRRKFRT LK">
+      <data key="d0">6064.21</data>
+    </edge>
+    <edge source="1452" target="FSTRRKRFRT KMPN">
+      <data key="d0">7018.8</data>
+    </edge>
+    <edge source="1452" target="FSTRRKRFRT LMTT">
+      <data key="d0">5714.43</data>
+    </edge>
+  </graph>
+</graphml>

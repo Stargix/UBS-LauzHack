@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="ALM ALMS A" />
+    <node id="373" />
+    <node id="ALM ALMS" />
+    <edge source="ALM ALMS A" target="373">
+      <data key="d0">320.73</data>
+    </edge>
+    <edge source="373" target="ALM ALMS">
+      <data key="d0">6902.02</data>
+    </edge>
+  </graph>
+</graphml>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="ARNNTS LR " />
+    <node id="928" />
+    <node id="ARN JNSTN" />
+    <node id="ARNLT LLLLKK" />
+    <node id="ARN HKS SRR" />
+    <node id="ARN TT JRR" />
+    <node id="ARN LPLNK" />
+    <node id="ARN LK" />
+    <edge source="ARNNTS LR " target="928">
+      <data key="d0">6182.66</data>
+    </edge>
+    <edge source="928" target="ARN JNSTN">
+      <data key="d0">2048.53</data>
+    </edge>
+    <edge source="928" target="ARNLT LLLLKK">
+      <data key="d0">6608.95</data>
+    </edge>
+    <edge source="928" target="ARN HKS SRR">
+      <data key="d0">6286.84</data>
+    </edge>
+    <edge source="928" target="ARN TT JRR">
+      <data key="d0">9780.59</data>
+    </edge>
+    <edge source="928" target="ARN LPLNK">
+      <data key="d0">4870.42</data>
+    </edge>
+    <edge source="928" target="ARN LK">
+      <data key="d0">4118.68</data>
+    </edge>
+  </graph>
+</graphml>

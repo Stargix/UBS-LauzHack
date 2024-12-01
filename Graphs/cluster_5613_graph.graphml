@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="RFSS XNTR ANT PL" />
+    <node id="5613" />
+    <node id="RFSSTNLS SSRRLL" />
+    <node id="RFSSTNS" />
+    <edge source="RFSS XNTR ANT PL" target="5613">
+      <data key="d0">3931.68</data>
+    </edge>
+    <edge source="5613" target="RFSSTNLS SSRRLL">
+      <data key="d0">9256.05</data>
+    </edge>
+    <edge source="5613" target="RFSSTNS">
+      <data key="d0">8055.22</data>
+    </edge>
+  </graph>
+</graphml>

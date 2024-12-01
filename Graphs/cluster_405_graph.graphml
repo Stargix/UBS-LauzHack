@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="ALN LK" />
+    <node id="405" />
+    <node id="ALNNRTL" />
+    <node id="ALNNFRST" />
+    <node id="ALN A" />
+    <edge source="ALN LK" target="405">
+      <data key="d0">3911.69</data>
+    </edge>
+    <edge source="405" target="ALNNRTL">
+      <data key="d0">5116.01</data>
+    </edge>
+    <edge source="405" target="ALNNFRST">
+      <data key="d0">3612.42</data>
+    </edge>
+    <edge source="405" target="ALN A">
+      <data key="d0">5327.17</data>
+    </edge>
+  </graph>
+</graphml>

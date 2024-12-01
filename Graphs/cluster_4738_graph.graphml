@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="MSSS HL ANT ATMS" />
+    <node id="4738" />
+    <node id="MSSS HL ANT ATMS LMTT" />
+    <edge source="MSSS HL ANT ATMS" target="4738">
+      <data key="d0">7251.37</data>
+    </edge>
+    <edge source="4738" target="MSSS HL ANT ATMS LMTT">
+      <data key="d0">6438.3</data>
+    </edge>
+  </graph>
+</graphml>

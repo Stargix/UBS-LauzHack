@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="JS HRT" />
+    <node id="2390" />
+    <node id="JS JNS" />
+    <node id="JS HRNNTS" />
+    <edge source="JS HRT" target="2390">
+      <data key="d0">3275.06</data>
+    </edge>
+    <edge source="2390" target="JS JNS">
+      <data key="d0">6622.82</data>
+    </edge>
+    <edge source="2390" target="JS HRNNTS">
+      <data key="d0">2507.54</data>
+    </edge>
+  </graph>
+</graphml>

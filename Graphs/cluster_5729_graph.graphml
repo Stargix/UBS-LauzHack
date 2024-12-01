@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="RPK A" />
+    <node id="5729" />
+    <node id="RPK R" />
+    <node id="RPK RSSL" />
+    <node id="RPK RSL" />
+    <edge source="RPK A" target="5729">
+      <data key="d0">2051.72</data>
+    </edge>
+    <edge source="5729" target="RPK R">
+      <data key="d0">2050.16</data>
+    </edge>
+    <edge source="5729" target="RPK RSSL">
+      <data key="d0">7002.83</data>
+    </edge>
+    <edge source="5729" target="RPK RSL">
+      <data key="d0">1224.51</data>
+    </edge>
+  </graph>
+</graphml>

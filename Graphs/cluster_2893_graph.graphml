@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="KLT FSTR" />
+    <node id="2893" />
+    <node id="KLTPLFNS A" />
+    <node id="KLT A" />
+    <edge source="KLT FSTR" target="2893">
+      <data key="d0">9486.1</data>
+    </edge>
+    <edge source="2893" target="KLTPLFNS A">
+      <data key="d0">2163.43</data>
+    </edge>
+    <edge source="2893" target="KLT A">
+      <data key="d0">8523.01</data>
+    </edge>
+  </graph>
+</graphml>

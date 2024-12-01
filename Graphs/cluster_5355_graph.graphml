@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="PRNN HNSN ANT ALF KRPP" />
+    <node id="5355" />
+    <node id="PRNN HNSN ANT ALF" />
+    <node id="PRNTN 0RNTN" />
+    <node id="PRNNRT SSRRLL" />
+    <edge source="PRNN HNSN ANT ALF KRPP" target="5355">
+      <data key="d0">2957.58</data>
+    </edge>
+    <edge source="5355" target="PRNN HNSN ANT ALF">
+      <data key="d0">2681.24</data>
+    </edge>
+    <edge source="5355" target="PRNTN 0RNTN">
+      <data key="d0">5262.98</data>
+    </edge>
+    <edge source="5355" target="PRNNRT SSRRLL">
+      <data key="d0">9398.03</data>
+    </edge>
+  </graph>
+</graphml>

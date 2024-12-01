@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="MPRN" />
+    <node id="4467" />
+    <node id="MR LT" />
+    <node id="MR ANK ANKRPRTT" />
+    <node id="MR PTRSN A" />
+    <node id="MR KL ANT MRX" />
+    <node id="MR MKFRLNT SRR" />
+    <node id="MR  PRS A" />
+    <edge source="MPRN" target="4467">
+      <data key="d0">2800.51</data>
+    </edge>
+    <edge source="4467" target="MR LT">
+      <data key="d0">9521.58</data>
+    </edge>
+    <edge source="4467" target="MR ANK ANKRPRTT">
+      <data key="d0">3646.51</data>
+    </edge>
+    <edge source="4467" target="MR PTRSN A">
+      <data key="d0">1439.87</data>
+    </edge>
+    <edge source="4467" target="MR KL ANT MRX">
+      <data key="d0">2105.26</data>
+    </edge>
+    <edge source="4467" target="MR MKFRLNT SRR">
+      <data key="d0">7066.44</data>
+    </edge>
+    <edge source="4467" target="MR  PRS A">
+      <data key="d0">4547.87</data>
+    </edge>
+  </graph>
+</graphml>

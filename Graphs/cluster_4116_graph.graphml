@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="MLS MRXL" />
+    <node id="4116" />
+    <node id="MLS HS A" />
+    <node id="MLSSJKSN LMTT" />
+    <node id="MLSSJKSN ANTRNXNL" />
+    <edge source="MLS MRXL" target="4116">
+      <data key="d0">4658.09</data>
+    </edge>
+    <edge source="4116" target="MLS HS A">
+      <data key="d0">4787.18</data>
+    </edge>
+    <edge source="4116" target="MLSSJKSN LMTT">
+      <data key="d0">9221.15</data>
+    </edge>
+    <edge source="4116" target="MLSSJKSN ANTRNXNL">
+      <data key="d0">5092.26</data>
+    </edge>
+  </graph>
+</graphml>

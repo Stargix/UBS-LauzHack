@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="MXL KNSLS" />
+    <node id="4789" />
+    <node id="MXL KNT" />
+    <node id="MXL ALSN A" />
+    <edge source="MXL KNSLS" target="4789">
+      <data key="d0">7987.31</data>
+    </edge>
+    <edge source="4789" target="MXL KNT">
+      <data key="d0">8144.48</data>
+    </edge>
+    <edge source="4789" target="MXL ALSN A">
+      <data key="d0">8636.32</data>
+    </edge>
+  </graph>
+</graphml>

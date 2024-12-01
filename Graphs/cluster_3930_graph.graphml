@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="MKL FKS" />
+    <node id="3930" />
+    <node id="MKL H S" />
+    <edge source="MKL FKS" target="3930">
+      <data key="d0">8301.57</data>
+    </edge>
+    <edge source="3930" target="MKL H S">
+      <data key="d0">7459.51</data>
+    </edge>
+  </graph>
+</graphml>

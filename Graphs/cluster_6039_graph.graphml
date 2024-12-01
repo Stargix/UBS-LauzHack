@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="RXRTSNN SNK ANT STRT" />
+    <node id="6039" />
+    <node id="RXRTSNN  SNK ANT STRT" />
+    <node id="RXRTSMM SLF ANT RT" />
+    <edge source="RXRTSNN SNK ANT STRT" target="6039">
+      <data key="d0">8497.04</data>
+    </edge>
+    <edge source="6039" target="RXRTSNN  SNK ANT STRT">
+      <data key="d0">3510.48</data>
+    </edge>
+    <edge source="6039" target="RXRTSMM SLF ANT RT">
+      <data key="d0">9468.17</data>
+    </edge>
+  </graph>
+</graphml>

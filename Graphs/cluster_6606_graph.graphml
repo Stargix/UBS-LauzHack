@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="TFT SNXKS" />
+    <node id="6606" />
+    <node id="TFT PTTN JRR" />
+    <node id="TFT PTP" />
+    <node id="TFT" />
+    <edge source="TFT SNXKS" target="6606">
+      <data key="d0">3032.44</data>
+    </edge>
+    <edge source="6606" target="TFT PTTN JRR">
+      <data key="d0">7716.39</data>
+    </edge>
+    <edge source="6606" target="TFT PTP">
+      <data key="d0">8662.66</data>
+    </edge>
+    <edge source="6606" target="TFT">
+      <data key="d0">4925.81</data>
+    </edge>
+  </graph>
+</graphml>

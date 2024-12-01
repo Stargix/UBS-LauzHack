@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="JR MK" />
+    <node id="2343" />
+    <node id="JR MK A" />
+    <node id="JR KNSLS SRR" />
+    <edge source="JR MK" target="2343">
+      <data key="d0">7976.93</data>
+    </edge>
+    <edge source="2343" target="JR MK A">
+      <data key="d0">6016.79</data>
+    </edge>
+    <edge source="2343" target="JR KNSLS SRR">
+      <data key="d0">4995.37</data>
+    </edge>
+  </graph>
+</graphml>

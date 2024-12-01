@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="SML ASPRN" />
+    <node id="6206" />
+    <node id="SMLLRTN ANKK" />
+    <node id="SMLLTRN KRPP" />
+    <node id="SMLLRTN" />
+    <edge source="SML ASPRN" target="6206">
+      <data key="d0">3110.94</data>
+    </edge>
+    <edge source="6206" target="SMLLRTN ANKK">
+      <data key="d0">5765.28</data>
+    </edge>
+    <edge source="6206" target="SMLLTRN KRPP">
+      <data key="d0">1677.06</data>
+    </edge>
+    <edge source="6206" target="SMLLRTN">
+      <data key="d0">408.36</data>
+    </edge>
+  </graph>
+</graphml>

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="JNFR HHS" />
+    <node id="2156" />
+    <node id="JNFR TNS JRR" />
+    <node id="JNFR JRTN SRR" />
+    <node id="JNFRL SRR" />
+    <node id="JNF JNF RLNX" />
+    <edge source="JNFR HHS" target="2156">
+      <data key="d0">3737.39</data>
+    </edge>
+    <edge source="2156" target="JNFR TNS JRR">
+      <data key="d0">5402.48</data>
+    </edge>
+    <edge source="2156" target="JNFR JRTN SRR">
+      <data key="d0">3145.22</data>
+    </edge>
+    <edge source="2156" target="JNFRL SRR">
+      <data key="d0">8917.34</data>
+    </edge>
+    <edge source="2156" target="JNF JNF RLNX">
+      <data key="d0">3561.71</data>
+    </edge>
+  </graph>
+</graphml>

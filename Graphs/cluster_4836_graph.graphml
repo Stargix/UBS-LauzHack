@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="NK LT" />
+    <node id="4836" />
+    <node id="NKL KNSLS" />
+    <node id="NKL TRS" />
+    <node id="NKL" />
+    <edge source="NK LT" target="4836">
+      <data key="d0">7048.83</data>
+    </edge>
+    <edge source="4836" target="NKL KNSLS">
+      <data key="d0">6383.28</data>
+    </edge>
+    <edge source="4836" target="NKL TRS">
+      <data key="d0">7063.13</data>
+    </edge>
+    <edge source="4836" target="NKL">
+      <data key="d0">2967.27</data>
+    </edge>
+  </graph>
+</graphml>

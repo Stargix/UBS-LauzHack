@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="TM0 A" />
+    <node id="6737" />
+    <node id="TM0" />
+    <node id="TM0 RKSMSN" />
+    <node id="TM0 RSMSN SRR" />
+    <node id="TM0 RSMSN" />
+    <edge source="TM0 A" target="6737">
+      <data key="d0">1646.97</data>
+    </edge>
+    <edge source="6737" target="TM0">
+      <data key="d0">9995.72</data>
+    </edge>
+    <edge source="6737" target="TM0 RKSMSN">
+      <data key="d0">7730.2</data>
+    </edge>
+    <edge source="6737" target="TM0 RSMSN SRR">
+      <data key="d0">3590.71</data>
+    </edge>
+    <edge source="6737" target="TM0 RSMSN">
+      <data key="d0">2343.32</data>
+    </edge>
+  </graph>
+</graphml>

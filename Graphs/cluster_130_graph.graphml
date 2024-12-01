@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="AA FRJ A" />
+    <node id="130" />
+    <node id="AA RTRKS" />
+    <node id="AA JNSN" />
+    <node id="AA SM0" />
+    <node id="AA SNXK" />
+    <edge source="AA FRJ A" target="130">
+      <data key="d0">3325.6</data>
+    </edge>
+    <edge source="130" target="AA RTRKS">
+      <data key="d0">5576.67</data>
+    </edge>
+    <edge source="130" target="AA JNSN">
+      <data key="d0">8171.61</data>
+    </edge>
+    <edge source="130" target="AA SM0">
+      <data key="d0">6125.57</data>
+    </edge>
+    <edge source="130" target="AA SNXK">
+      <data key="d0">9500.2</data>
+    </edge>
+  </graph>
+</graphml>

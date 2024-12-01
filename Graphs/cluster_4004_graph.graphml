@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="MKN SM0" />
+    <node id="4004" />
+    <node id="MKNTLTN" />
+    <node id="MKNTTLTN" />
+    <node id="MKNKKTTLTN ANKK" />
+    <edge source="MKN SM0" target="4004">
+      <data key="d0">6390.53</data>
+    </edge>
+    <edge source="4004" target="MKNTLTN">
+      <data key="d0">226.64</data>
+    </edge>
+    <edge source="4004" target="MKNTTLTN">
+      <data key="d0">4407.55</data>
+    </edge>
+    <edge source="4004" target="MKNKKTTLTN ANKK">
+      <data key="d0">6271.76</data>
+    </edge>
+  </graph>
+</graphml>

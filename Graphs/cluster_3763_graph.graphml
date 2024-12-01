@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="LRNS XPMN JRR" />
+    <node id="3763" />
+    <node id="LRN S  ASFRN" />
+    <node id="LRNK ASPRN" />
+    <node id="LRNS ASPRN" />
+    <edge source="LRNS XPMN JRR" target="3763">
+      <data key="d0">971.81</data>
+    </edge>
+    <edge source="3763" target="LRN S  ASFRN">
+      <data key="d0">1630.27</data>
+    </edge>
+    <edge source="3763" target="LRNK ASPRN">
+      <data key="d0">34.25</data>
+    </edge>
+    <edge source="3763" target="LRNS ASPRN">
+      <data key="d0">6967.51</data>
+    </edge>
+  </graph>
+</graphml>

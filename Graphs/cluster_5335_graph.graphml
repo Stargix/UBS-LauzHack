@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="PRNN ANTRSN ANT HRS KRPP" />
+    <node id="5335" />
+    <node id="PRNTTLMS LMTT" />
+    <node id="PRN XFS" />
+    <node id="PRNNKKTMPSN" />
+    <node id="PRNTTNTRSN" />
+    <node id="PRNN RS ANT ALMS" />
+    <node id="PRNTN 0RNTN" />
+    <edge source="PRNN ANTRSN ANT HRS KRPP" target="5335">
+      <data key="d0">2816.72</data>
+    </edge>
+    <edge source="5335" target="PRNTTLMS LMTT">
+      <data key="d0">597.48</data>
+    </edge>
+    <edge source="5335" target="PRN XFS">
+      <data key="d0">4356.51</data>
+    </edge>
+    <edge source="5335" target="PRNNKKTMPSN">
+      <data key="d0">5150.86</data>
+    </edge>
+    <edge source="5335" target="PRNTTNTRSN">
+      <data key="d0">493.64</data>
+    </edge>
+    <edge source="5335" target="PRNN RS ANT ALMS">
+      <data key="d0">4427.17</data>
+    </edge>
+    <edge source="5335" target="PRNTN 0RNTN">
+      <data key="d0">1642.48</data>
+    </edge>
+  </graph>
+</graphml>

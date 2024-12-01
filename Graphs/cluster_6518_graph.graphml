@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="STNNRMRS" />
+    <node id="6518" />
+    <node id="STNL" />
+    <node id="STNL JRR" />
+    <edge source="STNNRMRS" target="6518">
+      <data key="d0">8139.41</data>
+    </edge>
+    <edge source="6518" target="STNL">
+      <data key="d0">7669.66</data>
+    </edge>
+    <edge source="6518" target="STNL JRR">
+      <data key="d0">1286.41</data>
+    </edge>
+  </graph>
+</graphml>

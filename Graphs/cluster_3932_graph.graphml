@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="MKL AKLR" />
+    <node id="3932" />
+    <node id="MKL" />
+    <node id="MKLFLNNLMS" />
+    <node id="MKL FLPS JRR" />
+    <edge source="MKL AKLR" target="3932">
+      <data key="d0">2994.6</data>
+    </edge>
+    <edge source="3932" target="MKL">
+      <data key="d0">2998.58</data>
+    </edge>
+    <edge source="3932" target="MKLFLNNLMS">
+      <data key="d0">5781.57</data>
+    </edge>
+    <edge source="3932" target="MKL FLPS JRR">
+      <data key="d0">5931.39</data>
+    </edge>
+  </graph>
+</graphml>

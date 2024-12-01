@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="STF JKN" />
+    <node id="6458" />
+    <node id="STFNSSPR ANTRNXNL" />
+    <node id="STFNSSPR SSRRLL" />
+    <node id="STF ANSSPR" />
+    <edge source="STF JKN" target="6458">
+      <data key="d0">9229.04</data>
+    </edge>
+    <edge source="6458" target="STFNSSPR ANTRNXNL">
+      <data key="d0">1837.92</data>
+    </edge>
+    <edge source="6458" target="STFNSSPR SSRRLL">
+      <data key="d0">5981.19</data>
+    </edge>
+    <edge source="6458" target="STF ANSSPR">
+      <data key="d0">500.91</data>
+    </edge>
+  </graph>
+</graphml>

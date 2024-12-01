@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="PRSNN JNSN ANT TFS" />
+    <node id="5438" />
+    <node id="PRSNN JNSN  ANT TFS LTT" />
+    <node id="PRTLL" />
+    <node id="PRT LMTT" />
+    <node id="PRTLT ANK" />
+    <node id="PRTN LLK ANKK" />
+    <edge source="PRSNN JNSN ANT TFS" target="5438">
+      <data key="d0">282.92</data>
+    </edge>
+    <edge source="5438" target="PRSNN JNSN  ANT TFS LTT">
+      <data key="d0">5196.04</data>
+    </edge>
+    <edge source="5438" target="PRTLL">
+      <data key="d0">9394.27</data>
+    </edge>
+    <edge source="5438" target="PRT LMTT">
+      <data key="d0">1956.47</data>
+    </edge>
+    <edge source="5438" target="PRTLT ANK">
+      <data key="d0">9107.64</data>
+    </edge>
+    <edge source="5438" target="PRTN LLK ANKK">
+      <data key="d0">865.0</data>
+    </edge>
+  </graph>
+</graphml>

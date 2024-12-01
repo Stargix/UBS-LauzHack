@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="XN XLTN" />
+    <node id="7376" />
+    <node id="XN ANK" />
+    <node id="XN SM0" />
+    <edge source="XN XLTN" target="7376">
+      <data key="d0">8846.22</data>
+    </edge>
+    <edge source="7376" target="XN ANK">
+      <data key="d0">8138.1</data>
+    </edge>
+    <edge source="7376" target="XN SM0">
+      <data key="d0">1789.6</data>
+    </edge>
+  </graph>
+</graphml>

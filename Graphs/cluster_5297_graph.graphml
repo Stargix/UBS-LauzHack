@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="PRNTN 0RNTN" />
+    <node id="5297" />
+    <node id="PRNNLFSN" />
+    <node id="PRNTT TNSNT ANT KRPP" />
+    <node id="PRN SM0 JRR" />
+    <node id="PRNTN ASPRN" />
+    <node id="PRNTT TNSNT ANT T KRPRXN" />
+    <node id="PRNSS KLTRN ANT PRJS" />
+    <node id="PRN MKL SRR" />
+    <node id="PRNNPRT" />
+    <node id="PRNT TKR" />
+    <edge source="PRNTN 0RNTN" target="5297">
+      <data key="d0">6146.55</data>
+    </edge>
+    <edge source="5297" target="PRNNLFSN">
+      <data key="d0">4014.33</data>
+    </edge>
+    <edge source="5297" target="PRNTT TNSNT ANT KRPP">
+      <data key="d0">2143.39</data>
+    </edge>
+    <edge source="5297" target="PRN SM0 JRR">
+      <data key="d0">7169.26</data>
+    </edge>
+    <edge source="5297" target="PRNTN ASPRN">
+      <data key="d0">5904.03</data>
+    </edge>
+    <edge source="5297" target="PRNTT TNSNT ANT T KRPRXN">
+      <data key="d0">8899.82</data>
+    </edge>
+    <edge source="5297" target="PRNSS KLTRN ANT PRJS">
+      <data key="d0">8203.7</data>
+    </edge>
+    <edge source="5297" target="PRN MKL SRR">
+      <data key="d0">4454.99</data>
+    </edge>
+    <edge source="5297" target="PRNNPRT">
+      <data key="d0">1372.76</data>
+    </edge>
+    <edge source="5297" target="PRNT TKR">
+      <data key="d0">4964.36</data>
+    </edge>
+  </graph>
+</graphml>

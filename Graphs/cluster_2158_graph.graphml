@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="JNFR L" />
+    <node id="2158" />
+    <node id="JNFR MLR A" />
+    <edge source="JNFR L" target="2158">
+      <data key="d0">9166.72</data>
+    </edge>
+    <edge source="2158" target="JNFR MLR A">
+      <data key="d0">8937.58</data>
+    </edge>
+  </graph>
+</graphml>

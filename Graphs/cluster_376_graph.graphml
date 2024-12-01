@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="ALMSSSM0" />
+    <node id="376" />
+    <node id="ALM KRHM A" />
+    <node id="ALM TRNR" />
+    <node id="ALM KRM" />
+    <node id="ALMS PRK ARN ANT" />
+    <edge source="ALMSSSM0" target="376">
+      <data key="d0">3448.27</data>
+    </edge>
+    <edge source="376" target="ALM KRHM A">
+      <data key="d0">8705.42</data>
+    </edge>
+    <edge source="376" target="ALM TRNR">
+      <data key="d0">5363.54</data>
+    </edge>
+    <edge source="376" target="ALM KRM">
+      <data key="d0">7245.32</data>
+    </edge>
+    <edge source="376" target="ALMS PRK ARN ANT">
+      <data key="d0">132.45</data>
+    </edge>
+  </graph>
+</graphml>

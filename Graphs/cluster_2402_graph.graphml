@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="JS" />
+    <node id="2402" />
+    <node id="JSF FRKSN" />
+    <node id="JSF AFRKSN" />
+    <node id="JSF AT" />
+    <node id="JSF SRN JRR" />
+    <node id="JSF HMLTN A" />
+    <edge source="JS" target="2402">
+      <data key="d0">1938.71</data>
+    </edge>
+    <edge source="2402" target="JSF FRKSN">
+      <data key="d0">4553.65</data>
+    </edge>
+    <edge source="2402" target="JSF AFRKSN">
+      <data key="d0">6648.74</data>
+    </edge>
+    <edge source="2402" target="JSF AT">
+      <data key="d0">1071.24</data>
+    </edge>
+    <edge source="2402" target="JSF SRN JRR">
+      <data key="d0">6408.92</data>
+    </edge>
+    <edge source="2402" target="JSF HMLTN A">
+      <data key="d0">6772.81</data>
+    </edge>
+  </graph>
+</graphml>

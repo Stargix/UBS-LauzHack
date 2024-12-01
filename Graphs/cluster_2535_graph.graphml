@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="JX KRS A" />
+    <node id="2535" />
+    <node id="JX FRL" />
+    <node id="JX FRKL" />
+    <edge source="JX KRS A" target="2535">
+      <data key="d0">5299.34</data>
+    </edge>
+    <edge source="2535" target="JX FRL">
+      <data key="d0">764.1</data>
+    </edge>
+    <edge source="2535" target="JX FRKL">
+      <data key="d0">8448.52</data>
+    </edge>
+  </graph>
+</graphml>

@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="SLSRRSTRFRT KMPN" />
+    <node id="6129" />
+    <node id="SM00 ALMS ANT RXRT" />
+    <node id="SM00 PRT ANT MNTS" />
+    <node id="SM0 PLK" />
+    <node id="SM00 KRN ANT SM0" />
+    <node id="SM0 ANK" />
+    <node id="SM0 SRR" />
+    <node id="SM0 ANT TSN" />
+    <edge source="SLSRRSTRFRT KMPN" target="6129">
+      <data key="d0">2806.18</data>
+    </edge>
+    <edge source="6129" target="SM00 ALMS ANT RXRT">
+      <data key="d0">7555.08</data>
+    </edge>
+    <edge source="6129" target="SM00 PRT ANT MNTS">
+      <data key="d0">6486.28</data>
+    </edge>
+    <edge source="6129" target="SM0 PLK">
+      <data key="d0">4301.55</data>
+    </edge>
+    <edge source="6129" target="SM00 KRN ANT SM0">
+      <data key="d0">9225.78</data>
+    </edge>
+    <edge source="6129" target="SM0 ANK">
+      <data key="d0">4919.71</data>
+    </edge>
+    <edge source="6129" target="SM0 SRR">
+      <data key="d0">7523.1</data>
+    </edge>
+    <edge source="6129" target="SM0 ANT TSN">
+      <data key="d0">5472.95</data>
+    </edge>
+  </graph>
+</graphml>

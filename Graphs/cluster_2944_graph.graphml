@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="KMPSS RPRTS ANT KRLSN KMPN" />
+    <node id="2944" />
+    <node id="KMPSS RPRTS ANT KRLSN SSRRLL" />
+    <node id="KMPSS RPRTS KRLSN" />
+    <node id="KMPSS RPRTS ANT KRLSN" />
+    <edge source="KMPSS RPRTS ANT KRLSN KMPN" target="2944">
+      <data key="d0">4656.98</data>
+    </edge>
+    <edge source="2944" target="KMPSS RPRTS ANT KRLSN SSRRLL">
+      <data key="d0">2384.92</data>
+    </edge>
+    <edge source="2944" target="KMPSS RPRTS KRLSN">
+      <data key="d0">8159.84</data>
+    </edge>
+    <edge source="2944" target="KMPSS RPRTS ANT KRLSN">
+      <data key="d0">2665.07</data>
+    </edge>
+  </graph>
+</graphml>

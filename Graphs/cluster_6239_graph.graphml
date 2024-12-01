@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="SN PRN" />
+    <node id="6239" />
+    <node id="SN APR JRR" />
+    <edge source="SN PRN" target="6239">
+      <data key="d0">7298.67</data>
+    </edge>
+    <edge source="6239" target="SN APR JRR">
+      <data key="d0">8817.0</data>
+    </edge>
+  </graph>
+</graphml>

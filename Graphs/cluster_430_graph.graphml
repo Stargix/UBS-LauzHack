@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="ALSN TS" />
+    <node id="430" />
+    <node id="ALSN ANT SNS" />
+    <node id="ALSNNKRMR" />
+    <node id="ALSS SM0" />
+    <node id="ALSSMRKT" />
+    <node id="ALSS KR ANT KRL" />
+    <node id="ALSP0 PRSN" />
+    <node id="ALSS RMS ANT ANTRSN" />
+    <edge source="ALSN TS" target="430">
+      <data key="d0">5319.79</data>
+    </edge>
+    <edge source="430" target="ALSN ANT SNS">
+      <data key="d0">7534.21</data>
+    </edge>
+    <edge source="430" target="ALSNNKRMR">
+      <data key="d0">6506.13</data>
+    </edge>
+    <edge source="430" target="ALSS SM0">
+      <data key="d0">2768.3</data>
+    </edge>
+    <edge source="430" target="ALSSMRKT">
+      <data key="d0">4261.51</data>
+    </edge>
+    <edge source="430" target="ALSS KR ANT KRL">
+      <data key="d0">6435.24</data>
+    </edge>
+    <edge source="430" target="ALSP0 PRSN">
+      <data key="d0">255.9</data>
+    </edge>
+    <edge source="430" target="ALSS RMS ANT ANTRSN">
+      <data key="d0">6681.39</data>
+    </edge>
+  </graph>
+</graphml>

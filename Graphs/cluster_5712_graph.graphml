@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="RNT KLSP" />
+    <node id="5712" />
+    <node id="RNT" />
+    <node id="RNTKTMN" />
+    <edge source="RNT KLSP" target="5712">
+      <data key="d0">5470.36</data>
+    </edge>
+    <edge source="5712" target="RNT">
+      <data key="d0">9464.65</data>
+    </edge>
+    <edge source="5712" target="RNTKTMN">
+      <data key="d0">8499.52</data>
+    </edge>
+  </graph>
+</graphml>

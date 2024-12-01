@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="AML JNS" />
+    <node id="557" />
+    <node id="AMLTN TFM" />
+    <node id="AMLRMSTRNK" />
+    <node id="AML ARMSTRMK" />
+    <node id="AMLMT" />
+    <edge source="AML JNS" target="557">
+      <data key="d0">2709.69</data>
+    </edge>
+    <edge source="557" target="AMLTN TFM">
+      <data key="d0">7108.85</data>
+    </edge>
+    <edge source="557" target="AMLRMSTRNK">
+      <data key="d0">1856.99</data>
+    </edge>
+    <edge source="557" target="AML ARMSTRMK">
+      <data key="d0">2096.62</data>
+    </edge>
+    <edge source="557" target="AMLMT">
+      <data key="d0">6649.24</data>
+    </edge>
+  </graph>
+</graphml>

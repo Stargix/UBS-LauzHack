@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="MMKK KS SRR" />
+    <node id="4315" />
+    <node id="MMKK APR" />
+    <node id="MMKK PRNT" />
+    <node id="MMKK MT" />
+    <edge source="MMKK KS SRR" target="4315">
+      <data key="d0">4679.68</data>
+    </edge>
+    <edge source="4315" target="MMKK APR">
+      <data key="d0">6541.17</data>
+    </edge>
+    <edge source="4315" target="MMKK PRNT">
+      <data key="d0">4463.03</data>
+    </edge>
+    <edge source="4315" target="MMKK MT">
+      <data key="d0">9972.65</data>
+    </edge>
+  </graph>
+</graphml>

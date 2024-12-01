@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="TMNKSSL" />
+    <node id="6754" />
+    <node id="TMPSN KRP" />
+    <node id="TMPSN RPNSNN SFJ ANT" />
+    <node id="TMPSN ANT  SNS" />
+    <edge source="TMNKSSL" target="6754">
+      <data key="d0">651.57</data>
+    </edge>
+    <edge source="6754" target="TMPSN KRP">
+      <data key="d0">8533.21</data>
+    </edge>
+    <edge source="6754" target="TMPSN RPNSNN SFJ ANT">
+      <data key="d0">6503.16</data>
+    </edge>
+    <edge source="6754" target="TMPSN ANT  SNS">
+      <data key="d0">9451.29</data>
+    </edge>
+  </graph>
+</graphml>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="NPL LS ANT KS" />
+    <node id="4916" />
+    <node id="NPLPKR PLK" />
+    <node id="NPLPKR KRPRXN" />
+    <node id="NPLPLKR" />
+    <edge source="NPL LS ANT KS" target="4916">
+      <data key="d0">7070.09</data>
+    </edge>
+    <edge source="4916" target="NPLPKR PLK">
+      <data key="d0">629.26</data>
+    </edge>
+    <edge source="4916" target="NPLPKR KRPRXN">
+      <data key="d0">2510.5</data>
+    </edge>
+    <edge source="4916" target="NPLPLKR">
+      <data key="d0">7425.65</data>
+    </edge>
+  </graph>
+</graphml>

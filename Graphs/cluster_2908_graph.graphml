@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="KM PX JRR" />
+    <node id="2908" />
+    <node id="KM ALS" />
+    <node id="KM ALMS JRR" />
+    <node id="KM ALMS" />
+    <edge source="KM PX JRR" target="2908">
+      <data key="d0">3540.14</data>
+    </edge>
+    <edge source="2908" target="KM ALS">
+      <data key="d0">4507.73</data>
+    </edge>
+    <edge source="2908" target="KM ALMS JRR">
+      <data key="d0">2235.7</data>
+    </edge>
+    <edge source="2908" target="KM ALMS">
+      <data key="d0">2430.94</data>
+    </edge>
+  </graph>
+</graphml>

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="MRS MRS LK" />
+    <node id="4660" />
+    <node id="MRTN" />
+    <node id="MRTNN PRS ANT NRTN" />
+    <node id="MRTNSS RMNT ANT ALN" />
+    <node id="MRTNSPLK PLK" />
+    <node id="MRTNS PLK" />
+    <edge source="MRS MRS LK" target="4660">
+      <data key="d0">9800.49</data>
+    </edge>
+    <edge source="4660" target="MRTN">
+      <data key="d0">8120.68</data>
+    </edge>
+    <edge source="4660" target="MRTNN PRS ANT NRTN">
+      <data key="d0">6623.74</data>
+    </edge>
+    <edge source="4660" target="MRTNSS RMNT ANT ALN">
+      <data key="d0">818.3</data>
+    </edge>
+    <edge source="4660" target="MRTNSPLK PLK">
+      <data key="d0">4021.75</data>
+    </edge>
+    <edge source="4660" target="MRTNS PLK">
+      <data key="d0">9688.42</data>
+    </edge>
+  </graph>
+</graphml>

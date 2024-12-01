@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="AMPR  MRF" />
+    <node id="614" />
+    <node id="AMPR MRF" />
+    <node id="AMPF LMP A" />
+    <node id="AMPR SNXK" />
+    <edge source="AMPR  MRF" target="614">
+      <data key="d0">5236.37</data>
+    </edge>
+    <edge source="614" target="AMPR MRF">
+      <data key="d0">6426.42</data>
+    </edge>
+    <edge source="614" target="AMPF LMP A">
+      <data key="d0">7591.58</data>
+    </edge>
+    <edge source="614" target="AMPR SNXK">
+      <data key="d0">2520.12</data>
+    </edge>
+  </graph>
+</graphml>

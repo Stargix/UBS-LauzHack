@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="XL RFR" />
+    <node id="7357" />
+    <node id="XL KRT" />
+    <node id="XL KRR" />
+    <edge source="XL RFR" target="7357">
+      <data key="d0">1093.97</data>
+    </edge>
+    <edge source="7357" target="XL KRT">
+      <data key="d0">3441.53</data>
+    </edge>
+    <edge source="7357" target="XL KRR">
+      <data key="d0">2448.36</data>
+    </edge>
+  </graph>
+</graphml>

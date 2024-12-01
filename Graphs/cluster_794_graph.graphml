@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="ANTRSS RPRTS ANT XRTS" />
+    <node id="794" />
+    <node id="ANTRSN ANK" />
+    <node id="ANTRSNNLMS ANKK" />
+    <node id="ANTRSP ANKRPRTT" />
+    <edge source="ANTRSS RPRTS ANT XRTS" target="794">
+      <data key="d0">767.41</data>
+    </edge>
+    <edge source="794" target="ANTRSN ANK">
+      <data key="d0">9203.94</data>
+    </edge>
+    <edge source="794" target="ANTRSNNLMS ANKK">
+      <data key="d0">5778.74</data>
+    </edge>
+    <edge source="794" target="ANTRSP ANKRPRTT">
+      <data key="d0">1475.51</data>
+    </edge>
+  </graph>
+</graphml>

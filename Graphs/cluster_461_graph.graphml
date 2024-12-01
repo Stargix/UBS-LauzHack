@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="ALS JNFR A" />
+    <node id="461" />
+    <node id="ALSP0 JRR" />
+    <node id="ALSP0 ATS" />
+    <node id="ALSPT ALSPT ATS" />
+    <edge source="ALS JNFR A" target="461">
+      <data key="d0">9402.91</data>
+    </edge>
+    <edge source="461" target="ALSP0 JRR">
+      <data key="d0">726.24</data>
+    </edge>
+    <edge source="461" target="ALSP0 ATS">
+      <data key="d0">7115.95</data>
+    </edge>
+    <edge source="461" target="ALSPT ALSPT ATS">
+      <data key="d0">6727.37</data>
+    </edge>
+  </graph>
+</graphml>

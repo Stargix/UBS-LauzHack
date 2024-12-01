@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="JRS LR A" />
+    <node id="2381" />
+    <node id="JRTNLS" />
+    <node id="JRTN ALS" />
+    <node id="JRTNNSTN" />
+    <node id="JRTN J ANFR" />
+    <node id="JRTN JRR" />
+    <edge source="JRS LR A" target="2381">
+      <data key="d0">2305.32</data>
+    </edge>
+    <edge source="2381" target="JRTNLS">
+      <data key="d0">7102.93</data>
+    </edge>
+    <edge source="2381" target="JRTN ALS">
+      <data key="d0">6317.98</data>
+    </edge>
+    <edge source="2381" target="JRTNNSTN">
+      <data key="d0">9459.22</data>
+    </edge>
+    <edge source="2381" target="JRTN J ANFR">
+      <data key="d0">9120.92</data>
+    </edge>
+    <edge source="2381" target="JRTN JRR">
+      <data key="d0">6042.57</data>
+    </edge>
+  </graph>
+</graphml>

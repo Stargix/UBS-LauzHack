@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="ARK LN" />
+    <node id="912" />
+    <node id="ARK" />
+    <node id="ARK TMS" />
+    <node id="ARK AXNKTN JRR" />
+    <edge source="ARK LN" target="912">
+      <data key="d0">8798.82</data>
+    </edge>
+    <edge source="912" target="ARK">
+      <data key="d0">6781.01</data>
+    </edge>
+    <edge source="912" target="ARK TMS">
+      <data key="d0">8864.39</data>
+    </edge>
+    <edge source="912" target="ARK AXNKTN JRR">
+      <data key="d0">8634.66</data>
+    </edge>
+  </graph>
+</graphml>

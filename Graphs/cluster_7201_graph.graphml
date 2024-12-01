@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="TT ALS" />
+    <node id="7201" />
+    <node id="TT TMPSN" />
+    <node id="TT PNT" />
+    <node id="TT KRS" />
+    <edge source="TT ALS" target="7201">
+      <data key="d0">8656.88</data>
+    </edge>
+    <edge source="7201" target="TT TMPSN">
+      <data key="d0">7421.96</data>
+    </edge>
+    <edge source="7201" target="TT PNT">
+      <data key="d0">669.91</data>
+    </edge>
+    <edge source="7201" target="TT KRS">
+      <data key="d0">7590.3</data>
+    </edge>
+  </graph>
+</graphml>

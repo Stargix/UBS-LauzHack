@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="AASSTR" />
+    <node id="162" />
+    <node id="AFL PLK" />
+    <node id="AFL PXP ANT PKR ANTT" />
+    <edge source="AASSTR" target="162">
+      <data key="d0">2216.17</data>
+    </edge>
+    <edge source="162" target="AFL PLK">
+      <data key="d0">3097.1</data>
+    </edge>
+    <edge source="162" target="AFL PXP ANT PKR ANTT">
+      <data key="d0">1792.73</data>
+    </edge>
+  </graph>
+</graphml>

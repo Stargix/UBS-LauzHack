@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="PML ALN" />
+    <node id="5131" />
+    <node id="PML" />
+    <node id="PMLXRT SRR" />
+    <edge source="PML ALN" target="5131">
+      <data key="d0">2295.44</data>
+    </edge>
+    <edge source="5131" target="PML">
+      <data key="d0">9564.51</data>
+    </edge>
+    <edge source="5131" target="PMLXRT SRR">
+      <data key="d0">5544.61</data>
+    </edge>
+  </graph>
+</graphml>

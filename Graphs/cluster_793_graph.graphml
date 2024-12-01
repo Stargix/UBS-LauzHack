@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="ANTR SLNS " />
+    <node id="793" />
+    <node id="ANTRS ANK" />
+    <node id="ANTR ASS RPRTS ANT XRTS KRPRXN" />
+    <node id="ANTRTT NKS ANT KTN" />
+    <node id="ANTSS RPRTS ANT XRTS KRPP" />
+    <node id="ANTRSN ANT SNS" />
+    <node id="ANTR FS" />
+    <node id="ANTRSNNLMS ANKK" />
+    <edge source="ANTR SLNS " target="793">
+      <data key="d0">9659.9</data>
+    </edge>
+    <edge source="793" target="ANTRS ANK">
+      <data key="d0">5031.09</data>
+    </edge>
+    <edge source="793" target="ANTR ASS RPRTS ANT XRTS KRPRXN">
+      <data key="d0">2277.93</data>
+    </edge>
+    <edge source="793" target="ANTRTT NKS ANT KTN">
+      <data key="d0">2317.93</data>
+    </edge>
+    <edge source="793" target="ANTSS RPRTS ANT XRTS KRPP">
+      <data key="d0">715.81</data>
+    </edge>
+    <edge source="793" target="ANTRSN ANT SNS">
+      <data key="d0">7353.06</data>
+    </edge>
+    <edge source="793" target="ANTR FS">
+      <data key="d0">8964.56</data>
+    </edge>
+    <edge source="793" target="ANTRSNNLMS ANKK">
+      <data key="d0">6436.41</data>
+    </edge>
+  </graph>
+</graphml>

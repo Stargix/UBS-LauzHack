@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="AFLR TNLTSN" />
+    <node id="165" />
+    <node id="AFLN TKNS SRR" />
+    <node id="AFLN ATKNS A" />
+    <node id="AFLNTKNS" />
+    <edge source="AFLR TNLTSN" target="165">
+      <data key="d0">9201.48</data>
+    </edge>
+    <edge source="165" target="AFLN TKNS SRR">
+      <data key="d0">1641.49</data>
+    </edge>
+    <edge source="165" target="AFLN ATKNS A">
+      <data key="d0">2042.47</data>
+    </edge>
+    <edge source="165" target="AFLNTKNS">
+      <data key="d0">266.43</data>
+    </edge>
+  </graph>
+</graphml>

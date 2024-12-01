@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="RPRT PKR" />
+    <node id="5765" />
+    <node id="RPRTS" />
+    <node id="RPRTS RP LMTT" />
+    <node id="RPRT SM0" />
+    <node id="RPRT PXNN" />
+    <node id="RPRTS KRPP" />
+    <edge source="RPRT PKR" target="5765">
+      <data key="d0">7154.98</data>
+    </edge>
+    <edge source="5765" target="RPRTS">
+      <data key="d0">3591.76</data>
+    </edge>
+    <edge source="5765" target="RPRTS RP LMTT">
+      <data key="d0">1605.35</data>
+    </edge>
+    <edge source="5765" target="RPRT SM0">
+      <data key="d0">2687.19</data>
+    </edge>
+    <edge source="5765" target="RPRT PXNN">
+      <data key="d0">9216.15</data>
+    </edge>
+    <edge source="5765" target="RPRTS KRPP">
+      <data key="d0">3300.39</data>
+    </edge>
+  </graph>
+</graphml>

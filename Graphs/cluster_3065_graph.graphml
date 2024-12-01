@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="KNT FLRS ANT ALSN KRPP" />
+    <node id="3065" />
+    <node id="KNTT TMS AT RT PLK" />
+    <node id="KNTT 0MS ANT RT ANTT" />
+    <node id="KNTT 0NS TMS ANT RT LTT" />
+    <edge source="KNT FLRS ANT ALSN KRPP" target="3065">
+      <data key="d0">1454.72</data>
+    </edge>
+    <edge source="3065" target="KNTT TMS AT RT PLK">
+      <data key="d0">1613.61</data>
+    </edge>
+    <edge source="3065" target="KNTT 0MS ANT RT ANTT">
+      <data key="d0">6637.06</data>
+    </edge>
+    <edge source="3065" target="KNTT 0NS TMS ANT RT LTT">
+      <data key="d0">9438.71</data>
+    </edge>
+  </graph>
+</graphml>

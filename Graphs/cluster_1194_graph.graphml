@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="AXL PLKL ANT M" />
+    <node id="1194" />
+    <node id="AXL ALMS JRR" />
+    <node id="AXLLMS" />
+    <edge source="AXL PLKL ANT M" target="1194">
+      <data key="d0">4580.38</data>
+    </edge>
+    <edge source="1194" target="AXL ALMS JRR">
+      <data key="d0">1642.5</data>
+    </edge>
+    <edge source="1194" target="AXLLMS">
+      <data key="d0">4841.98</data>
+    </edge>
+  </graph>
+</graphml>

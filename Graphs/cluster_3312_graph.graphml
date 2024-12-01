@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="KRS JRJ ANT HRT ANTT" />
+    <node id="3312" />
+    <node id="KRS SM0 ANT KL" />
+    <node id="KRS SM0 ANTKL" />
+    <edge source="KRS JRJ ANT HRT ANTT" target="3312">
+      <data key="d0">5226.42</data>
+    </edge>
+    <edge source="3312" target="KRS SM0 ANT KL">
+      <data key="d0">1659.39</data>
+    </edge>
+    <edge source="3312" target="KRS SM0 ANTKL">
+      <data key="d0">1633.23</data>
+    </edge>
+  </graph>
+</graphml>

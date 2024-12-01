@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="AMNT STFNSN TS" />
+    <node id="588" />
+    <node id="AMNT JNS" />
+    <edge source="AMNT STFNSN TS" target="588">
+      <data key="d0">6738.88</data>
+    </edge>
+    <edge source="588" target="AMNT JNS">
+      <data key="d0">5499.85</data>
+    </edge>
+  </graph>
+</graphml>

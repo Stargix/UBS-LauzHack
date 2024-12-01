@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="SKT PRTFRT" />
+    <node id="6077" />
+    <node id="SKT MPR" />
+    <node id="SKTMR" />
+    <edge source="SKT PRTFRT" target="6077">
+      <data key="d0">3202.81</data>
+    </edge>
+    <edge source="6077" target="SKT MPR">
+      <data key="d0">5221.04</data>
+    </edge>
+    <edge source="6077" target="SKTMR">
+      <data key="d0">9333.14</data>
+    </edge>
+  </graph>
+</graphml>

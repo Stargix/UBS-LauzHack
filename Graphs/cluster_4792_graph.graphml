@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="MXL PLK" />
+    <node id="4792" />
+    <node id="MXL JRR" />
+    <node id="MXLRT JRR" />
+    <node id="MXL ALMS" />
+    <node id="MXL HRT" />
+    <node id="MXL SNTRR TSNT" />
+    <edge source="MXL PLK" target="4792">
+      <data key="d0">5004.67</data>
+    </edge>
+    <edge source="4792" target="MXL JRR">
+      <data key="d0">6450.75</data>
+    </edge>
+    <edge source="4792" target="MXLRT JRR">
+      <data key="d0">4035.05</data>
+    </edge>
+    <edge source="4792" target="MXL ALMS">
+      <data key="d0">2558.48</data>
+    </edge>
+    <edge source="4792" target="MXL HRT">
+      <data key="d0">6692.44</data>
+    </edge>
+    <edge source="4792" target="MXL SNTRR TSNT">
+      <data key="d0">9751.32</data>
+    </edge>
+  </graph>
+</graphml>

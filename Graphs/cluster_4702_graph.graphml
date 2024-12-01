@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="MRTNN KRP ANT TFT" />
+    <node id="4702" />
+    <node id="MRTNN KRP ANT TFT KRPRXN" />
+    <edge source="MRTNN KRP ANT TFT" target="4702">
+      <data key="d0">1757.39</data>
+    </edge>
+    <edge source="4702" target="MRTNN KRP ANT TFT KRPRXN">
+      <data key="d0">3561.06</data>
+    </edge>
+  </graph>
+</graphml>

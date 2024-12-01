@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="TRFR P0" />
+    <node id="7040" />
+    <node id="TRFS SKT" />
+    <node id="TRFS SMPSN" />
+    <node id="TRFN ANTNS ANTRNXNL" />
+    <edge source="TRFR P0" target="7040">
+      <data key="d0">9410.39</data>
+    </edge>
+    <edge source="7040" target="TRFS SKT">
+      <data key="d0">9117.3</data>
+    </edge>
+    <edge source="7040" target="TRFS SMPSN">
+      <data key="d0">9736.24</data>
+    </edge>
+    <edge source="7040" target="TRFN ANTNS ANTRNXNL">
+      <data key="d0">6599.52</data>
+    </edge>
+  </graph>
+</graphml>
